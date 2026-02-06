@@ -94,16 +94,3 @@ Default local ports:
 - Frontend: `http://localhost:3000`
 - Backend API: `http://localhost:5000`
 
-## 5) Suggested next cleanup steps
-
-1. **Decide the canonical frontend route structure** and wire `DashboardPage`, `LeadsPage`, `FormBuilderPage` into `App.jsx`.
-2. **Resolve placeholder files** (either implement or remove them) to reduce ambiguity.
-3. **Fix stale imports/paths** in pages under `src/pages/`.
-4. **Add tests**:
-   - Backend: route/controller integration tests.
-   - Frontend: basic route rendering/auth state tests.
-5. **Unify docs** by keeping this root README and aligning `backend/README.md` details under one installation section.
-
----
-
-If you want, I can follow up with a second pass that creates a detailed endpoint matrix (request/response examples) and a dependency graph by file.
